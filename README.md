@@ -10,4 +10,4 @@ zip function.zip my-lambda-binary
 
 aws lambda create-function --function-name harvestDefatulRatesPerUser --runtime go1.x --zip-file fileb://function.zip --handler my-lambda-binary --role arn:aws:iam::374208052150:role/service-role/lambdaTestRole
 
-aws lambda update-function-code --function-name arn:arn:aws:lambda:eu-west-1:374208052150:function:harvestDefatulRatesPerUser --zip-file fileb://function.zip 
+aws lambda update-function-code --function-name arn:aws:lambda:eu-west-1:374208052150:function:harvestDefatulRatesPerUser --zip-file fileb://function.zip 
